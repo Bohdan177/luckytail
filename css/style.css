@@ -216,9 +216,10 @@ section{
 .offer-img img{
     max-width: 500px;
 }
-.features .container{
+.features-wrapper{
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 .features-item{
     display: flex;
@@ -226,8 +227,8 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 33.3333%;
-    padding: 15px;
+    flex: 30.3333%;
+    margin: 10px;
 }
 .features-item__img img{
     max-width: 329px;
