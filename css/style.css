@@ -347,6 +347,7 @@ section{
         background: #fff;
     padding: 14px 60px 14px 25px;
     border-radius: 10px;
+    min-height: 75px;
   }
   .accordion-item:hover{
     cursor: pointer;
