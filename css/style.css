@@ -440,15 +440,21 @@ padding-top: 10px;
     background-color: #fff8e8;
     padding: 40px 0;
 }
-.all-animals img{
+.all-animals-desktop, .all-animals-mobile{
     max-width: 100%;
     display: block;
     margin: 0 auto;
 }
-.why-luckytail img{
+.all-animals-mobile{
+    display: none;
+}
+.table-desktop, .table-mobile {
     max-width: 100%;
     margin: 30px auto;
     display: block;
+}
+.table-mobile{
+    display: none;
 }
 .top-rated .container{
     display: flex;
@@ -563,6 +569,7 @@ h3{
 }
 .price-item__button{
     padding-top: 50px;
+    text-align: center;
 }
 .price-item__button .offer-cta__suptitle{
     font-size: 12px;
@@ -788,10 +795,41 @@ footer .logo img{
     .logo{
        display: block; 
     }
+    .logo img {
+        transform: translateY(10px);
+    }
+    .header {
+        padding: 4px 0;
+    }
+    .dogs-list .dog-item{
+        margin: 10px 0;
+        flex: 33%;
+    }
+    .dog-item img{
+        max-width: 100px;
+    }
+    .table-mobile, .all-animals-mobile{
+        display: block;
+    }
+    .all-animals-mobile{
+        margin-top: 35px;
+    }
+    .table-desktop, .all-animals-desktop{
+        display: none;
+    }
+    .luckytails-instagram-wrapper .instagram-item a img{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width:495px){
     .instagram-reviews-wrapper{
         flex-direction: column;
+    }
+    .footer-labels-wrapper{
+        justify-content: center;
+    }
+    .footer-labels-wrapper img{
+        margin: 20px;
     }
 }
 @media screen and (max-width:395px){
