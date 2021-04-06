@@ -138,6 +138,7 @@ a:hover{
 .logo img{
     max-width: 138px;
     width: 100%;
+    height: auto;
 }
 .header .container{
     display: flex;
