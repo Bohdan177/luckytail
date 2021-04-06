@@ -79,6 +79,22 @@ a:hover{
     justify-content: space-between;
     text-align: center;
     margin: 0 20px;
+    position: relative;
+}
+.popup-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+}
+.popup-close:hover{
+    text-decoration: none;
+}
+.popup-close svg{
+    width: 15px;
+    height: 15px;
 }
 .popup-content__text{
     max-width: 280px;
@@ -121,6 +137,7 @@ a:hover{
 }
 .logo img{
     max-width: 138px;
+    width: 100%;
 }
 .header .container{
     display: flex;
@@ -766,6 +783,11 @@ footer .logo img{
     }
     .popup-content img{
         max-width: 80px;
+    }
+}
+@media screen and (max-width:495px){
+    .instagram-reviews-wrapper{
+        flex-direction: column;
     }
 }
 @media screen and (max-width:395px){
