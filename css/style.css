@@ -785,6 +785,9 @@ footer .logo img{
     .popup-content img{
         max-width: 80px;
     }
+    .logo{
+       display: block; 
+    }
 }
 @media screen and (max-width:495px){
     .instagram-reviews-wrapper{
