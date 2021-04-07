@@ -813,6 +813,7 @@ footer .logo img{
     }
     .all-animals-mobile{
         margin-top: 35px;
+        max-width: 155px;
     }
     .table-desktop, .all-animals-desktop{
         display: none;
