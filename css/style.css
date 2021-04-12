@@ -132,9 +132,7 @@ a:hover{
     padding: 0 3%;
     
 }
-.logo{
-    display: flex;
-}
+
 .logo img{
     max-width: 138px;
     width: 100%;
@@ -238,6 +236,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
 }
 .features-item{
     display: flex;
@@ -245,7 +244,8 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 30.3333%;
+    max-width: 330px;
+    width: 100%;
     margin: 10px;
 }
 .features-item__img img{
@@ -267,6 +267,7 @@ section{
 .features-item p {
     text-align: left;
     padding-top: 10px;
+    max-width: 300px;
 }
 .youtube-feedbacks{
     background-color: #f1f1f1;
@@ -295,6 +296,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
+    justify-content: center;
 }
 .instagram-reviews__item{
     display: flex;
@@ -304,7 +306,6 @@ section{
     border-radius: 5px;
     border: 2px solid #f2f2f2;
     margin: 10px;
-    flex: 29.333333%;
 }
 .instagram-reviews__item .profile-pic img{
     max-width: 90px;
